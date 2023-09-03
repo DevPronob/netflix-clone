@@ -14,7 +14,7 @@ const Banner = () => {
         }
         fetchData()
     },[])
-    
+    // movies
     console.log(movies)
     const posterBaseUrl = 'https://image.tmdb.org/t/p/original'
     const truncate = (str, n) =>
